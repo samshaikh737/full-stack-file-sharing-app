@@ -5,7 +5,8 @@ const fetchData = require("../script");
 
 router.get("/:uuid", async (req, res) => {
     
-    fetchData().then(process.exit);
+    fetchData().then();
+    
     try {
         const uuid = req.params?.uuid;
         const checkUuid = await fileModel.findOne({ uuid });
