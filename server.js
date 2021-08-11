@@ -4,7 +4,7 @@ const port = process.env.PORT || 8000;
 const path = require("path");
 
 const cors = require('cors')
-app.use(cors())
+//app.use(cors())
 app.use(express.json())
 
 //Template engine
