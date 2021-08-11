@@ -24,4 +24,4 @@ async function fetchData() {
     }
 }
 
-fetchData().then(process.exit);
+module.exports = fetchData;
