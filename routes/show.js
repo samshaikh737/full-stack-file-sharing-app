@@ -1,11 +1,11 @@
 const router = require("express").Router();
 const fileModel = require("../models/fileModel");
 
-const fetchData = require("../script");
+// const fetchData = require("../script");
 
 router.get("/:uuid", async (req, res) => {
     
-    fetchData().then();
+    // fetchData().then();
     
     try {
         const uuid = req.params?.uuid;
